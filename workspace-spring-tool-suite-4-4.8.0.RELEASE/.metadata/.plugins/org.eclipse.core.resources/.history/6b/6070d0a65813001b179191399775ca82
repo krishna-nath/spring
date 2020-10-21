@@ -1,0 +1,27 @@
+package com.learnspring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Client {
+
+		public static void main(String[] args) {
+			Employee e = new Employee();
+			e.setEid(1);
+			e.setEname("Krishna");
+			e.seteSalary(500000d);
+			
+			System.out.println(e);
+			
+			// Inversion of control
+			// 1. Add jar Files for Spring core
+			// 2. Configure java object in an xml file
+			// 3. Use Spring IOC container, eg:BeanFactory or Application Context to get the objects
+			
+			ApplicationContext context = new ClassPathXmlApplicationContext("employee.xml");
+			
+		}
+	
+	
+	
+}

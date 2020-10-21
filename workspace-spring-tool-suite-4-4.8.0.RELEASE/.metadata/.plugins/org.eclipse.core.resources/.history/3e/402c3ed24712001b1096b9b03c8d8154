@@ -1,0 +1,32 @@
+package com.learnspring;
+
+public class Employee {
+	int eid;
+	String ename;
+	String eSalary;
+	public Employee(int eid, String ename, String eSalary) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.eSalary = eSalary;
+	}
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String geteSalary() {
+		return eSalary;
+	}
+	public void seteSalary(String eSalary) {
+		this.eSalary = eSalary;
+	}
+
+}
