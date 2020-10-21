@@ -8,7 +8,7 @@
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     
    <!-- <bean id="emp2" class="co.edureka.Employee" scope="prototype"> -->
-   <bean id="emp12" class="com.learnspring.Employee">
+   <bean id="emp1" class="com.learnspring.Employee">
        <property name="eid" value="100"/>
        <property name="ename" value="Jennie"/>
        <property name="eSalary" value="67500"/>
